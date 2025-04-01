@@ -20,9 +20,7 @@ apply plugin: 'com.android.library'
 
 android {
     // Conditional for compatibility with AGP <4.2.
-    if (project.android.hasProperty("namespace")) {
-        namespace 'com.arthenica.ffmpegkit.flutter'
-    }
+    namespace "com.arthenica.ffmpeg_kit_flutter" // ✅ Dòng bạn cần thêm
 
     compileSdkVersion 33
 
